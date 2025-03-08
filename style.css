@@ -13,7 +13,7 @@ body{
     height: 1vh;
     background-repeat: repeat;
     font-family: 'Lexend', sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .header .image{
     background-image: url('./images/our\ images/3.jpg');
