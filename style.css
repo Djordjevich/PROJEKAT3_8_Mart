@@ -14,8 +14,7 @@ body{
     background-repeat: repeat;
     font-family: 'Lexend', sans-serif;
     overflow: hidden;
-    touch-action: none;
-    
+    touch-action: none;   
 }
 .header .image{
     background-image: url('./images/our\ images/3.jpg');
@@ -29,6 +28,15 @@ body{
     margin: 5rem auto;
     box-shadow: 0px 0px 0px 5px #e286a3;
     position: relative;
+    
+}
+.gore{
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    top: 30%;
+    left: 45%;
+    transform: rotate(-40deg);
 }
 .header h1{
     font-family: 'Great Vibes', cursive;
@@ -37,8 +45,10 @@ body{
     transform: skewY(-5deg);
     text-align: center;
     color: white;
+    
 }
-.header p{
+
+.header .header-text p{
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.7);
     color: black;
@@ -46,20 +56,9 @@ body{
     border-radius: 15px;
     text-align: justify;
     box-shadow: 0 0 50px 10px #e286a3;
+    
 }
 .roseDesign{
-    width: 200px;
+    width: 100px;
     filter: drop-shadow(0 0 10px #e286a3);
-}
-.gore{
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: rotate(90deg);
-}
-.dole{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    transform: rotate(-90deg);
 }
